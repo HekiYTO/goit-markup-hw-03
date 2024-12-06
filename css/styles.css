@@ -279,7 +279,18 @@ text-decoration-skip-ink: none;
 }
 
 /* Команда */
+
+
+
+.ults {
+    display: flex;
+    gap: 24px;
+}
+
 .team-section {
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
