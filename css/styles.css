@@ -41,7 +41,17 @@ h1, h2, h3 {
 }
 
 .nav_menu1 {
+    display: flex;
     padding: 24px 0;
+    gap: 40px
+    padding: 24px 0;
+}
+
+
+.nav_menu2 {
+    display: flex;
+    padding: 24px 0;
+    gap: 40px
 }
 
 
