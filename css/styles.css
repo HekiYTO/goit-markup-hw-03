@@ -8,6 +8,9 @@ body {
     line-height: 1.17;
 }
 
+img{
+    display: block 
+}
 
 
 h1, h2, h3 {
@@ -107,28 +110,48 @@ footer {
 /* Секція 1 */
 .sectionone {
     background-color: #2e2f42;
+    width: 1440px;
+height: 600px;
+top: 72px;
+gap: 0px;
+opacity: 0px;
+
 }
 
 .sectionone h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+width: 496px;
+height: 120px;
+top: 260px;
+left: 472px;
+gap: 0px;
+opacity: 0px;
+color: #FFFFFF;
+font-family: Roboto;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .sectionone button {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+    width: Hug (169px)px;
+    height: Hug (56px)px;
+    top: 428px;
+    left: 636px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    
 }
 
 .sectionone button:hover, .sectionone button:focus {
-    background-color: #404BBF;
+    background-color: #FFFFFF;
 }
 
 /* Третя секція */
