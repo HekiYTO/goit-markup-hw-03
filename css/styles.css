@@ -64,7 +64,10 @@ h1, h2, h3 {
     gap: 40px
 }
 
-
+footer {
+    padding: 100px 0;
+    
+}
 
 nav a, address {
     color: #2E2F42;
