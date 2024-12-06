@@ -16,6 +16,10 @@ header {
     border-bottom: 1px solid #e7e9fc
 }
 
+.empty {
+    max-width: 496px;
+}
+
 h1, h2, h3 {
     margin: 0;
     padding: 0;
@@ -92,6 +96,10 @@ opacity: 0px;
 
 /* Кнопки */
 button {
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -126,6 +134,7 @@ footer {
 
 /* Секція 1 */
 .sectionone {
+    padding: 188px 0;
     background-color: #2e2f42;
     width: 1440px;
 height: 600px;
