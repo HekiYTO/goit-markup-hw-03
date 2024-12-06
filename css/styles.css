@@ -30,8 +30,13 @@ h1, h2, h3 {
     
 }
 
+.menu_header{
+    display: flex;
+    gap: 40px;
+}
+
 .nav {
-    
+    display: flex;
     align-items: center;
 }
 
