@@ -1,14 +1,41 @@
 /* Загальні стилі */
 body {
+    margin: 0;
+    padding: 0;
     color: #434455;
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     line-height: 1.17;
 }
 
+
+
 h1, h2, h3 {
+    margin: 0;
+    padding: 0;
     font-family: "Raleway", sans-serif;
 }
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.nav_menu1 {
+    display: flex;
+    width: Hug (261px)px;
+    height: Hug (24px)px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+    opacity: 0px;
+    
+}
+
 
 nav a, address {
     color: #2E2F42;
@@ -20,6 +47,12 @@ a:hover, a:focus {
 
 /* Логотип */
 .logo {
+    width: Hug (115px)px;
+height: Fixed (24px)px;
+top: 24px;
+left: 156px;
+gap: 0px;
+opacity: 0px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
