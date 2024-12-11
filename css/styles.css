@@ -48,12 +48,13 @@ h1, h2, h3 {
     gap: 40px;
 }
 
-.nav {
+.navigation {
+    
     display: flex;
     align-items: center;
 }
 
-.nav_menu1 {
+.navigation_menu1 {
     display: flex;
     padding: 24px 0;
     gap: 40px;
@@ -61,7 +62,7 @@ h1, h2, h3 {
 }
 
 
-.nav_menu2 {
+.navigation_menu2 {
     display: flex;
     padding: 24px 0;
     gap: 40px
@@ -71,7 +72,7 @@ footer {
     padding: 100px 0;
 }
 
-nav a, address {
+.navigation a, .addresss {
     color: #2E2F42;
 }
 
@@ -329,11 +330,12 @@ text-decoration-skip-ink: none;
 }
 
 /* Навігація */
-nav ul {
+.navigation ul {
     list-style: none;
 }
 
 .link_header {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -347,11 +349,11 @@ nav ul {
 }
 
 /* Адреса */
-.address {
+.addresss {
     font-style: normal;
 }
 
-.address ul {
+.addresss ul {
     list-style: none;
 }
 
