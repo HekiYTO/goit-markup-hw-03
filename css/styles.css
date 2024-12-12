@@ -394,3 +394,41 @@ text-decoration-skip-ink: none;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.nav_menu1 {
+    display: flex; /* Вирівнювання пунктів меню горизонтально */
+    gap: 40px; /* Відступи між пунктами меню */
+    list-style: none; /* Прибираємо маркери списку */
+    padding: 0;
+    margin: 0;
+}
+
+.nav_menu1 li:last-child {
+    margin-right: 0; /* Відсутність відступу для останнього пункту меню */
+}
+
+/* Стилі для посилань у пунктах меню */
+.link_header {
+    padding: 24px 0; /* Відступи всередині посилань */
+    text-decoration: none; /* Прибираємо підкреслення */
+    color: inherit; /* Спадковий колір тексту */
+}
+
+/* Стилі для списку в address */
+.nav_menu2 {
+    display: flex; /* Вирівнювання пунктів контактів горизонтально */
+    gap: 40px; /* Відступи між пунктами контактів */
+    list-style: none; /* Прибираємо маркери списку */
+    padding: 0;
+    margin: 0;
+}
+
+.nav_menu2 li:last-child {
+    margin-right: 0; /* Відсутність відступу для останнього пункту контактів */
+}
+
+/* Стилі для посилань у адресі */
+.mailto {
+    text-decoration: none; /* Прибираємо підкреслення */
+    color: inherit; /* Спадковий колір тексту */
+}
