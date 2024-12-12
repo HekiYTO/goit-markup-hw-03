@@ -16,9 +16,7 @@ header {
     border-bottom: 1px solid #e7e9fc
 }
 
-.sect2 {
-    padding: 120px 0;
-}
+
 
 .footer .a {
     display: inline-block;
@@ -271,21 +269,6 @@ text-decoration-skip-ink: none;
         overflow: hidden;
         }
 
-.advantage-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.paradvant {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 /* Команда */
 
 
@@ -371,3 +354,57 @@ text-decoration-skip-ink: none;
 }
 
 
+/* Стили секции */
+.sect-dva {
+    padding: 120px 0;
+}
+
+/* Стили контейнера */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Паттерн для скрытия заголовка */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Стили списка */
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.advantage-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+/* Стили заголовка */
+.advantage-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+/* Стили текста */
+.advantage-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
