@@ -1,537 +1,75 @@
-header/* Загальні стилі */
-body {
-    margin: 0;
-    padding: 0;
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    line-height: 1.17;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-img{
-    display: block 
-}
-
-header {
-    border-bottom: 1px solid #e7e9fc
-}
-
-
-.footer .a {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.empty {
-    max-width: 496px;
-}
-
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    font-family: "Raleway", sans-serif;
-}
-
-.container {
-     padding: 0 15px;
-    width: 1158px;
-    display: flex;
-    margin: 0 auto;
-    
-}
-
-.menu_header{
-    display: flex;
-    gap: 40px;
-}
-
-.navigation {
-    
-    display: flex;
-    align-items: center;
-}
-
-.navigation_menu1 {
-    display: flex;
-    padding: 24px 0;
-    gap: 40px;
-    padding: 24px 0;
-}
-
-
-.navigation_menu2 {
-    display: flex;
-    padding: 24px 0;
-    gap: 40px
-}
-
-footer {
-    padding: 100px 0;
-}
-
-.navigation a, .addresss {
-    color: #2E2F42;
-}
-
-a:hover, a:focus {
-    color: #404bbf;
-}
-
-/* Логотип */
-.logo {
-    margin-bottom: 16px;
-    display: inline-block;
-    margin-right: 76px;
-    width: Hug (115px)px;
-height: Fixed (24px)px;
-top: 24px;
-left: 156px;
-gap: 0px;
-opacity: 0px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo .studio {
-    color: #2e2f42;
-}
-
-.logo .studioo {
-    color: #f4f4fd;
-}
-
-/* Кнопки */
-button {
-    border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-}
-
-/* Стилі заголовків */
-.titleone {
-    font-family: "Roboto", sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", serif;
     letter-spacing: 0.02em;
+    line-height: 1.2
+    
+}
+
+h2 {
     text-align: center;
-}
-
-.footertext {
-    color: #F4F4FD;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-
-/* Footer */
-footer {
-    background: #2E2F42;
-}
-
-/* Секція 1 */
-.sectionone {
-    padding: 188px 0;
-    background-color: #2e2f42;
-    width: 1440px;
-height: 600px;
-top: 72px;
-gap: 0px;
-opacity: 0px;
-
-}
-
-.sectionone h1 {
-width: 496px;
-height: 120px;
-top: 260px;
-left: 472px;
-gap: 0px;
-opacity: 0px;
-color: #FFFFFF;
-font-family: Roboto;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.02em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-}
-
-.sectionone button {
-    background-color: #4D5AE5;
-    width: Hug (169px)px;
-    height: Hug (56px)px;
-    top: 428px;
-    left: 636px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    
-}
-
-.sectionone button:hover, .sectionone button:focus {
-    background-color: #FFFFFF;
-}
-
-/* Третя секція */
-.third-section {
-    padding-bottom: 120px;
-    padding-top: 120px;
-    background-color: #F4F4FD;
-}
-
-.sectionful {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-
-.title {
-    margin-bottom: 72px;
-    font-size: 36px;              
-    line-height: 1.11;             
-    text-align: center;            
-    letter-spacing: 0.02em;        
-    text-transform: capitalize;    
-    color: #2e2f42;                
-}
-
-.sfimg {
-    width: calc((100% - 48px) / 3);
-}
-
-.third-section .title {
     font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 }
 
-.third-section ul {
-    list-style: none;
-}
-
-.third-section li {
-    background-color: #FFFFFF;
-    text-align: center;
-}
-
-.third-section li h3 {
-    font-weight: 500;
+h3 {
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.third-section li p {
+p {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
-
-/* Переваги */
-
-/* Команда */
-
-
-
-.ults {
-    display: flex;
-    gap: 24px;
+a {
+    color: black;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-decoration: none;
 }
 
-.team-section {
-    border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
-    padding: 120px 0;
+.header {
+    background-color: #E7E9FC;
+}
+
+.logoheader {
+    font-weight: 700;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
+.logoheader2 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    }
+
+p {
+        font-family: "Roboto", serif;
+        font-weight: 500;
+}
+
+.section1 {
+    background-color: #2E2F42;
+}
+
+.section1mtext {
+    text-align: center;
+    color: white;
+}
+
+.section1button {
+    border: none;
+    color: white;
+    background-color: #4D5AE5;
+}
+
+.section2 {
     background-color: #F4F4FD;
 }
 
-.mark-guerro {
-    padding: 32px 0;
-}
-
-.team-member {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
-}
-
-.team-member-name {
-    text-align: center;
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.team-member-role {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Навігація */
-.navigation ul {
-    list-style: none;
-}
-
-.link_header {
-    padding: 24px 0;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.link_header:hover, .link_header:focus {
-    color: #404bbf;
-}
-
-/* Адреса */
-.addresss {
-    font-style: normal;
-}
-
-.addresss ul {
-    list-style: none;
-}
-
-.mailto, .tel {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-
-.mailto:hover, .mailto:focus,
-.tel:hover, .tel:focus {
-    color: #404bbf;
-}
-
-
-/* Стили секции */
-.sect-dva {
-    padding: 120px 0;
-}
-
-/* Стили контейнера */
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 15px;
-}
-
-/* Паттерн для скрытия заголовка */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-
-/* Стили списка */
-.advantages-list {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.advantage-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-/* Стили заголовка */
-.advantage-title {
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-/* Стили текста */
-.advantage-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.nav_menu1 {
-    display: flex; /* Вирівнювання пунктів меню горизонтально */
-    gap: 40px; /* Відступи між пунктами меню */
-    list-style: none; /* Прибираємо маркери списку */
-    padding: 0;
-    margin: 0;
-}
-
-.nav_menu1 li:last-child {
-    margin-right: 0; /* Відсутність відступу для останнього пункту меню */
-}
-
-/* Стилі для посилань у пунктах меню */
-.link_header {
-    padding: 24px 0; /* Відступи всередині посилань */
-    text-decoration: none; /* Прибираємо підкреслення */
-    color: inherit; /* Спадковий колір тексту */
-}
-
-/* Стилі для списку в address */
-.nav_menu2 {
-    display: flex; /* Вирівнювання пунктів контактів горизонтально */
-    gap: 40px; /* Відступи між пунктами контактів */
-    list-style: none; /* Прибираємо маркери списку */
-    padding: 0;
-    margin: 0;
-}
-
-.nav_menu2 li:last-child {
-    margin-right: 0; /* Відсутність відступу для останнього пункту контактів */
-}
-
-/* Стилі для посилань у адресі */
-.mailto {
-    text-decoration: none; /* Прибираємо підкреслення */
-    color: inherit; /* Спадковий колір тексту */
-}
-
-/* Загальний стиль для списку */
-.sectionful {
-    display: flex; /* Вирівнювання елементів списку горизонтально */
-    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок */
-    gap: 24px; /* Відступи між пунктами списку */
-    padding: 0;
-    margin: 0;
-    list-style: none; /* Прибираємо маркери списку */
-}
-
-/* Стиль для пунктів списку */
-.sectionful li {
-    width: calc((100% - 48px) / 3); /* Ширина елемента */
-    display: flex;
-    flex-direction: column; /* Вирівнювання вмісту вертикально */
-}
-
-/* Стиль для зображень */
-.sfimg {
-    width: 100%; /* Зображення займає всю ширину елемента списку */
-    height: auto; /* Зберігаємо пропорції */
-    border-radius: 4px; /* Додаємо згладжені кути */
-    object-fit: cover; /* Забезпечує гарне відображення зображень */
-}
-
-/* Стиль для контейнера з назвою додатку і категорією */
-.namedapp {
-    padding: 32px 16px; /* Внутрішні відступи */
-    border: 1px solid #e7e9fc; /* Обводка */
-    border-top: none; /* Прибираємо верхню обводку */
-    background-color: #fff; /* Фон для контенту */
-    flex-grow: 1; /* Розтягується, щоб зайняти простір */
-}
-
-/* Стиль для заголовків у контейнері */
-.namedapp .sfp {
-    margin-bottom: 8px; /* Відступ між заголовком та параграфом */
-    font-weight: bold;
-    color: #333; /* Основний текстовий колір */
-}
-
-.namedapp p {
-    margin: 0; /* Забираємо зайві відступи */
-    color: #666; /* Вторинний текстовий колір */
-    font-size: 14px;
-}
-
-
-/* Загальний стиль для списку */
-.ults {
-    display: flex; /* Розташування елементів горизонтально */
-    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок */
-    gap: 24px; /* Відступи між пунктами списку */
-    list-style: none; /* Прибираємо маркери списку */
-    padding: 0;
-    margin: 0;
-}
-
-/* Стиль для пунктів списку */
-.team-member {
-    flex-basis: calc((100% - 3 * 24px) / 4); /* Ширина пункту списку */
-    border-radius: 0px 0px 4px 4px; /* Заокруглення внизу блока */
-    overflow: hidden; /* Забезпечує обрізання вмісту за межами блоку */
-    display: flex;
-    flex-direction: column; /* Вирівнювання елементів вертикально */
-    align-items: center; /* Центрування вмісту */
-    background-color: #fff; /* Фон для пункту списку */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь для візуального акценту */
-}
-
-/* Стиль для контейнера інформації про працівника */
-.mark_guerrero {
-    padding: 32px 0; /* Відступи зверху і знизу контейнера */
-    text-align: center; /* Вирівнювання тексту по центру */
-    background-color: #f9f9fc; /* Фон для текстового контейнера */
-}
-
-/* Стиль для заголовка (ім'я працівника) */
-.team-member-name {
-    margin-bottom: 8px; /* Відступ між заголовком і текстом */
-    font-size: 18px; /* Розмір тексту */
-    font-weight: bold; /* Жирний текст */
-    color: #333; /* Основний колір тексту */
-    text-align: center; /* Центрування тексту */
-}
-
-/* Стиль для параграфа (посада працівника) */
-.team-member-role {
-    margin: 0; /* Прибираємо зайві зовнішні відступи */
-    font-size: 14px; /* Розмір тексту */
-    color: #666; /* Вторинний колір тексту */
-    text-align: center; /* Центрування тексту */
-}
-
-/* Стиль для зображення */
-.team-member img {
-    width: 100%; /* Ширина зображення дорівнює ширині блоку */
-    height: auto; /* Пропорційна висота зображення */
-    display: block; /* Забираємо проміжки між зображеннями */
-    border-radius: 4px 4px 0px 0px; /* Заокруглення верхніх кутів */
-    object-fit: cover; /* Обрізання зображення для гармонійного вигляду */
+.footer {
+    color: white;
+    background-color: #2E2F42;
 }
