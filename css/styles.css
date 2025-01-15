@@ -100,8 +100,14 @@ ul {
     }
 
 p {
-        font-family: "Roboto", serif;
-        font-weight: 500;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 }
 
 .section1 {
@@ -200,6 +206,29 @@ align-items: center;
     display: flex;
 }
 
+.s4otctext {
+    font-size: 400;
+    margin-top: 20px;
+    background-color: white;
+    align-items: center;
+    gap: 8px;
+}
+
+.s4ots {
+    background-color: white;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    border: none;
+    border-radius:4px;
+
+
+}
+
+.logoheader22 {
+    color: white;
+}
+
 .s3ots {
     background-color: white;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
@@ -212,7 +241,47 @@ align-items: center;
 
 }
 
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+ 
+}
+
+.s4h2 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.s4ul {
+    width: 1128px;
+   justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.ftext {
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 264px;
+}
+
+.ftext > p {
+color: white;
+
+}
+
+.logoheader2 {
+    margin-left: 156px;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
 .footer {
+    height: 312px;
     color: white;
     background-color: #2E2F42;
 }
