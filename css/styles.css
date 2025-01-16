@@ -224,9 +224,12 @@ width: auto;
 height: 104px;
 }
 
+.s-two-li {
+    width: calc((100% - 72px) / 4);
+}
+
 .s-two-hdva {
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 
 .s-two-ul {
