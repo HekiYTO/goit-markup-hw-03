@@ -290,6 +290,7 @@ text-decoration-skip-ink: none;
 }
 
 .logoheader22 {
+    display: inline-block;
     color: white;
 }
 
