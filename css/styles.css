@@ -348,7 +348,8 @@ color: white;
 }
 
 .logofooter {
-
+    display: inline-block;
+    margin-bottom: 16px;
     font-weight: 700;
     font-family: "Raleway", serif;
     color: #4D5AE5;
@@ -359,4 +360,9 @@ color: white;
     height: 312px;
     color: white;
     background-color: #2E2F42;
+}
+
+.p-footer {
+    max-width: 264px;
+    color: white;
 }
