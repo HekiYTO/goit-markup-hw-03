@@ -313,7 +313,7 @@ text-decoration-skip-ink: none;
 
 .section-four {
      padding-top: 120px; 
-     padding-bottom: 120px;
+     padding-bottom: 1320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,6 +365,14 @@ color: white;
 .p-footer {
     max-width: 264px;
     color: white;
+}
+
+footer > a {
+    display: inline-block;
+}
+
+footer > .container {
+    align-items: start;
 }
 
 .section-two {
