@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
 
 header > .container { 
     flex-direction: row; 
+}
+
+header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -172,12 +175,12 @@ text-decoration-skip-ink: none;
     background-color: #F4F4FD;
 }
 
-.s3h2 {
+.s-three-h{
     padding-top: 100px;
     margin-bottom: 100px;
 }
 
-.s3ul {
+.s-three-ul {
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -186,7 +189,7 @@ text-decoration-skip-ink: none;
 }
 
 
-.s2p {
+.s-two-p {
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
@@ -221,14 +224,14 @@ width: auto;
 height: 104px;
 }
 
-.s2ul {
+.s-two-ul {
     width: 1128px;
     justify-content: center;
     gap: 8px;
     display: flex;
 }
 
-.s3otctext {
+.s-three-otctext {
     font-size: 400;
     margin-top: 20px;
     background-color: white;
@@ -238,7 +241,7 @@ height: 104px;
     display: flex;
 }
 
-.s4otctext {
+.s-four-otctext {
     font-size: 400;
     margin-top: 20px;
     background-color: white;
@@ -246,7 +249,7 @@ height: 104px;
     gap: 8px;
 }
 
-.s4ots {
+.s-four-ots {
     background-color: white;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
@@ -261,7 +264,7 @@ height: 104px;
     color: white;
 }
 
-.s3ots {
+.s-three-ots {
     background-color: white;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
@@ -281,12 +284,12 @@ height: 104px;
  
 }
 
-.s4h2 {
+.s-four-h {
     padding-top: 100px;
     margin-bottom: 50px;
 }
 
-.s4ul {
+.s-four-ul {
     width: 1128px;
    justify-content: space-evenly;
     gap: 20px;
