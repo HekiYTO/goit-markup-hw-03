@@ -366,3 +366,11 @@ color: white;
     max-width: 264px;
     color: white;
 }
+
+.section-two {
+    padding: 120px 0;
+}
+
+.s-four-ots {
+    width: calc((100% - 48px) / 3);
+}
