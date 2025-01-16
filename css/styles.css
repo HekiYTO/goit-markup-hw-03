@@ -224,10 +224,14 @@ width: auto;
 height: 104px;
 }
 
+.s-two-ul > h3 {
+    width: calc((100% - 72px) / 4);
+}
+
 .s-two-ul {
+    gap: 24px;
     width: 1128px;
     justify-content: center;
-    gap: 8px;
     display: flex;
 }
 
