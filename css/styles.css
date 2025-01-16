@@ -225,6 +225,7 @@ height: 104px;
 }
 
 .s-two-hdva {
+    margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
 
