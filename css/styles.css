@@ -27,7 +27,6 @@ h1, h2, h3 {
     width: calc((100% - 48px) / 3);
 }
 
-
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -343,7 +342,7 @@ color: white;
 }
 
 footer > .container {
-    align-items: start;
+    display: inline-block;
 }
 
 .section-two {
