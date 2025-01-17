@@ -9,6 +9,23 @@ h1, h2, h3 {
     
 }
 
+.logofooter  {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
+.s-four-ots {
+    background-color: white;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    border: none;
+    border-radius:4px;
+    width: calc((100% - 48px) / 3);
+}
 
 
 .container {
@@ -271,18 +288,6 @@ text-decoration-skip-ink: none;
     border-top: none;
 }
 
-.s-four-ots {
-    background-color: white;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
-    border: none;
-    border-radius:4px;
-    width: calc((100% - 48px) / 3);
-}
-
-
-
 .s-three-ots {
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
@@ -321,13 +326,6 @@ color: white;
 
 }
 
-.logofooter  {
-    display: inline-block;
-    margin-bottom: 16px;
-    font-weight: 700;
-    font-family: "Raleway", serif;
-    color: #4D5AE5;
-}
 
 .logofooter-s {
     color: white;
