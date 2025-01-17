@@ -285,14 +285,9 @@ text-decoration-skip-ink: none;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
     border: none;
     border-radius:4px;
-
-
 }
 
-.logoheader22 {
-    display: inline-block;
-    color: white;
-}
+
 
 .s-three-ots {
     border-radius: 0px 0px 4px 4px;
@@ -302,7 +297,6 @@ text-decoration-skip-ink: none;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
     border: none;
-    width: 264px;
 }
 
 
@@ -339,6 +333,11 @@ color: white;
     font-weight: 700;
     font-family: "Raleway", serif;
     color: #4D5AE5;
+}
+
+.logoheader22 {
+    display: inline-block;
+    color: white;
 }
 
 .footer {
