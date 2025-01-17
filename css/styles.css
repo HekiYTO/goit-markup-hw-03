@@ -350,10 +350,6 @@ color: white;
     color: white;
 }
 
-footer > a {
-    display: inline-block;
-}
-
 footer > .container {
     align-items: start;
 }
