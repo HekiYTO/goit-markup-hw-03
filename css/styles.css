@@ -278,13 +278,13 @@ text-decoration-skip-ink: none;
 }
 
 .s-four-ots {
-    width: calc((100% - 48px) / 3);
     background-color: white;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
     border: none;
     border-radius:4px;
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -327,13 +327,18 @@ color: white;
 
 }
 
-.logofooter {
+.logofooter  {
     display: inline-block;
     margin-bottom: 16px;
     font-weight: 700;
     font-family: "Raleway", serif;
     color: #4D5AE5;
 }
+
+.logofooter > a  {
+    display: inline-block;
+}
+
 
 .logoheader22 {
     color: white;
