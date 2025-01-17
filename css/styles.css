@@ -18,10 +18,10 @@ h1, h2, h3 {
 }
 
 .s-four-ots {
-    background-color: white;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
+    background-color: white;
     border: none;
     border-radius:4px;
     width: calc((100% - 48px) / 3);
@@ -305,10 +305,8 @@ text-decoration-skip-ink: none;
 }
 
 .s-four-ul {
-    border: 1px solid #e7e9fc;
     column-gap: 24px;
     row-gap: 48px;
-    width: 1128px;
    justify-content: space-evenly;
     flex-wrap: wrap;
     display: flex;
