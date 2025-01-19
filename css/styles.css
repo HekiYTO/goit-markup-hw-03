@@ -2,18 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-.logofooter  {
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
-    font-weight: 700;
-    font-family: "Raleway", serif;
-    color: #4D5AE5;
-}
 
-.container > .logofooter {
-    display: inline-block;
-}
 
 .s-four-ots {
     width: calc((100% - 48px) / 3);
@@ -361,4 +350,17 @@ text-decoration-skip-ink: none;
 .section-four {
     padding-top: 120px; 
     padding-bottom: 120px;
+}
+
+.logofooter  {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+    color: #4D5AE5;
+}
+
+.container > .logofooter {
+    display: inline-block;
 }
