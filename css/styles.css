@@ -130,16 +130,6 @@ ul {
     list-style: none;
     }
 
-p {
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-}
 
 .section-one {
     padding: 188px 0;
@@ -183,13 +173,17 @@ text-decoration-skip-ink: none;
 }
 
 .s-three-h{
-    font-size: 36px;
-    margin: 0 auto;
     color: #2E2F42;
-    font-family: "Raleway", serif;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
     margin-bottom: 72px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
 }
 
 .s-three-ul {
@@ -197,17 +191,28 @@ text-decoration-skip-ink: none;
     display: flex;
 }
 
-
-.s-two-p {
+.s-four-p {
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
-text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
+color: #434455;
+}
 
+
+.s-two-p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #434455;
 }
 
 .visually-hidden {
@@ -332,6 +337,14 @@ color: #FFFFFF;
 }
 
 .p-footer {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
     max-width: 264px;
     color: #FFFFFF;
 }
