@@ -361,6 +361,6 @@ text-decoration-skip-ink: none;
     color: #4D5AE5;
 }
 
-.container > .logofooter {
-    display: inline-block;
+.footer > .container {
+    display: block;
 }
