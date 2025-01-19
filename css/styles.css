@@ -11,6 +11,10 @@
     color: #4D5AE5;
 }
 
+.container > .logofooter {
+    display: inline-block;
+}
+
 .s-four-ots {
     width: calc((100% - 48px) / 3);
 }
@@ -141,6 +145,7 @@ ul {
 }
 
 .section-one-mtext {
+    
     margin: 0 auto;
     font-family: Roboto;
     font-size: 56px;
@@ -151,7 +156,7 @@ ul {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
-    width: 496px;
+    max-width: 496px;
 }
 
 .section-one-button {
